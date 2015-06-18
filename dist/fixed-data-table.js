@@ -1,5 +1,5 @@
 /**
- * FixedDataTable v0.3.0-fixscroll-0 
+ * FixedDataTable v0.3.0-fixscroll-2 
  *
  * Copyright (c) 2015, Facebook, Inc.
  * All rights reserved.
@@ -145,7 +145,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  Table: FixedDataTable
 	};
 
-	FixedDataTableRoot.version = '0.3.0-fixscroll-0';
+	FixedDataTableRoot.version = '0.3.0-fixscroll-2';
 
 	module.exports = FixedDataTableRoot;
 
