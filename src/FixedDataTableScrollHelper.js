@@ -198,7 +198,7 @@ class FixedDataTableScrollHelper {
   }
 
   scrollTo(/*number*/ position) /*object*/ {
-    if (position <= 0) {
+    if (position <= 0 || isNaN(position)) {
       // If position less than or equal to 0 first row should be fully visible
       // on top
       this._position = 0;
